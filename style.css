@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(220, 237, 248);
+}
+
+.header {
+    color: orange;
+    background-color: navy;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title h1 {
+    margin: 0 10px;
+}
+
+.header img {
+    max-width: 100px;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+.header nav ul li a {
+    margin: 0 30px;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("hero.png");
+    position: relative;
+    padding: 10%;
+    background-size: cover;
+
+}
+
+.subtitle {
+    font-size: 4vw;
+    position: absolute;
+    color: blue;
+    background-color: rgb(220, 237, 248);
+    right: 2%;
+    bottom: 25%;
+}
+
+.section {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head-container {
+    width: 15%;
+    border-right: 2px solid black;
+    font-size: 30px;
+}
+
+
+.section-content {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-content p {
+    width: 85%;
+    margin: auto;
+}
+
+.my-work-img-cont {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.image-one {
+    opacity: 80%;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+ .image-one img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.text {
+    position: absolute;
+    color: white;
+    bottom: 8%;
+    font-size: 5.5vw;;
+    background-color: teal;
+}
+
+.subtext {
+    font-size: 2.5vw;
+}
+
+.image-one:hover {
+    opacity: 100%;
+}
+
+.image-two {
+    width: 40%;
+    margin: 10px 0x;
+    position: relative;
+} 
+
+.image-two img {
+    width: 100%;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 8%;
+    font-size: 3vw;
+    background-color: teal;
+}
+
+.subtext2 {
+    font-size: 2vw;
+}
+
+.footer-head {
+    width: 15%;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid black;
+}
+
+
+.footer-list {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.footer-list ul li {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .head-text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .header-title {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header nav ul li a {
+        font-size: 20px
+
+    }
+
+    .subtitle {
+        width: 100%;
+        text-align: center;
+        right: 0%;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        margin: 50px auto;
+    }
+
+    .head-container {
+        border-bottom: 2px solid black;
+        border-right: 0px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .section-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-content p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtext {
+        width: 100%;
+        font-size: 4vw;
+    }
+
+    .text2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtext2 {
+        width: 100%;
+    }
+
+    
+    .footer-list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-list ul li {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+}
