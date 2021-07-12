@@ -107,8 +107,6 @@ body {
     height: 100%;
 }
 
-
-
 .text {
     position: absolute;
     color: white;
@@ -126,10 +124,15 @@ body {
 }
 
 .image-two {
+    opacity: 80%;
     width: 40%;
     margin: 10px 0x;
     position: relative;
 } 
+
+.image-two:hover {
+    opacity: 100%;
+}
 
 .image-two img {
     width: 100%;
